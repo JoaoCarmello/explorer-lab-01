@@ -109,7 +109,7 @@ function updateDateNumber(date) {
 cardNumberMasked.on("accept", () => {
   const cardType = cardNumberMasked.masked.currentMask.cardtype
   setCardType(cardType)
-  updateCardCode(cardNumberMasked.value)
+  updateCardNumber(cardNumberMasked.value)
 })
 
 function updateCardNumber(number) {
