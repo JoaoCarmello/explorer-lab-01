@@ -97,7 +97,7 @@ function updateSecurityCode(code) {
 }
 
 expirationDateMasked.on("accept", () => {
-  updateDateCode(expirationDateMasked.value)
+  updateDateNumber(expirationDateMasked.value)
 })
 
 function updateDateNumber(date) {
